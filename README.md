@@ -1,39 +1,39 @@
 # Git Basic
 
-* Show all branches
+* Show all branches :
 git branch -al
 
-* Fetch all remote branches 
+* Fetch all remote branches :
 git fetch
 
-* Add all commit changes 
+* Add all commit changes :
 git add .
 
-* Remove added files
+* Remove added files :
 git remove {filename}
 
-* Restore changes file
+* Restore changes file :
 git restore {filename}
 
-* Commit changes
+* Commit changes :
 git commit -m "{message}"
 
-* Push committed files
+* Push committed files :
 git push origin {remote branch name}
 
-* Switch Local Branch
+* Switch Local Branch :
 git checkout {branch name}
 
-* Create Local Branch
+* Create Local Branch :
 git checkout -b {branch name}
 
-* Create Remote Branch
+* Create Remote Branch :
 git checkout -b {branch name}
 git push origin -u {remote branch name}
 
-* Remove Local Branch 
+* Remove Local Branch :
 git branch -d {branch name}
 
-* Remove Remote Branch
+* Remove Remote Branch :
 git push origin -d {remote branch name}
 
