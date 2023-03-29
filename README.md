@@ -1,4 +1,6 @@
 # Git Basic
+* Create git init :
+git init
 
 * Show all branches :
 git branch -al
